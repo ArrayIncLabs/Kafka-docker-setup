@@ -1,0 +1,6 @@
+micronaut:
+akhq:
+  connections:
+    local:
+      properties:
+        bootstrap.servers: PLAINTEXT://kafka:9092

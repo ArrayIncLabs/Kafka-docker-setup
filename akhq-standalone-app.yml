@@ -1,0 +1,8 @@
+micronaut:
+  server:
+    port: 5234 # set -1 for random port
+akhq:
+  connections:
+    local:
+      properties:
+        bootstrap.servers: PLAINTEXT://localhost:9094
